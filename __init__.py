@@ -6,7 +6,7 @@ import __main__
 
 from .nodes import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
 
-
+WEB_DIRECTORY = "./js"
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
 
 
@@ -35,6 +35,6 @@ def update_javascript():
             shutil.copy(src_file, dst_file)
 
 
-update_javascript()
+# update_javascript()
 
 print('\033[34mOpenPose Editor: \033[92mLoaded\033[0m')
